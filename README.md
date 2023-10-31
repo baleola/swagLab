@@ -35,10 +35,10 @@ Before you begin, ensure you have the following prerequisites installed on your 
   yarn cy:test
   ```
 
-- **`cytest-headed`**: Run Cypress tests with the browser UI opened.
+- **`cy:test-headed`**: Run Cypress tests with the browser UI opened.
 
   ```bash
-  yarn cytest-headed
+  yarn cy:test-headed
   ```
 
 - **`cy:open`**: Open the Cypress Test Runner.

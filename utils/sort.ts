@@ -1,15 +1,5 @@
 import { SortOptions, SortValues } from "../cypress/support/custom";
 
-export const isSortedDescending = (option: SortOptions, values: string[]) =>
-  values.every((value, index, array) => {
-    if (index === 0) return true;
-    return option === "PriceHighLow"
-      ? parseFloat(array[index - 1]) >= parseFloat(value)
-      : option === "PriceLowHigh"
-      ? parseFloat(array[index - 1]) <= parseFloat(value)
-      : array[index - 1] >= value;
-  });
-
 export enum SortingOrder {
   Ascending,
   Descending,
