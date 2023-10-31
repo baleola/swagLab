@@ -5,7 +5,7 @@ describe("Ceros Automation Challeng - SwagLabs", () => {
   const username = Cypress.env("STANDARD_USER_NAME");
   const password = Cypress.env("USER_PW");
 
-  const { homePage, loginPage, cartPage } = swagLabsPage;
+  const { homePage, cartPage } = swagLabsPage;
 
   let singleProduct: TpProduct;
 

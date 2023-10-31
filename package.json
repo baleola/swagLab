@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "cy:test": "npx cypress run",
-    "cytest-headed": "npx cypress run --headed",
+    "cy:test-headed": "npx cypress run --headed",
     "cy:open": "npx cypress open"
   },
   "author": "",
